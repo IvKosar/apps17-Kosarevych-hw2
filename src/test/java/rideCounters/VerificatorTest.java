@@ -38,7 +38,7 @@ public class VerificatorTest {
 
     @Test
     public void isHourValid() throws Exception {
-        assertTrue(Verificator.isHourValid(23));
+        assertTrue(Verificator.isHourValid(24));
     }
 
     @Test(expected = TooLateTooRideException.class)
